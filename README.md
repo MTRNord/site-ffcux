@@ -1,4 +1,4 @@
-Firmware Site Config for Freifunk Kiel
+Firmware Site Config for Freifunk Cuxhaven
 --------------------------------------
 
 # Autoupdater sources
@@ -48,7 +48,7 @@ Gluon versions used for specific Kieler Freifunk Firmware builds:
 Download der Firmware:
 ----------------------
 
-- https://freifunk.in-kiel.de/firmware.html
+- https://freifunk-cuxhaven.de/firmware.html
 
 Build
 -----
@@ -59,7 +59,7 @@ Or build with these commands:
     sudo apt-get install git make gcc g++ unzip libncurses5-dev zlib1g-dev subversion gawk bzip2 libssl-dev
     git clone https://github.com/freifunk-gluon/gluon.git
     cd gluon
-    git clone git@git.freifunk.in-kiel.de:ffki-site.git site
+    git clone git@github.com:Freifunk-Cuxhaven/site-ffcux.git site
     make update
     D=$(date '+%y%m%d%H%M');
     ONLY_11S="ramips-rt305x ramips-mt7621"
