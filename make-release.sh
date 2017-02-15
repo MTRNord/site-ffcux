@@ -10,7 +10,7 @@
 ## properly configured in this script.
 
 # if version is unset, will use the default experimental version from site.mk
-VERSION=${3:-"2016.2.3~rc$(date '+%y%m%d%H%M')"}
+VERSION=${3:-"2016.2.3~beta$(date '+%y%m%d%H%M')"}
 # branch must be set to either experimental, beta or stable
 BRANCH=${2:-"stable"}
 # must point to valid ecdsa signing key created by ecdsakeygen, relative to Gluon base directory
@@ -58,7 +58,7 @@ X86="x86-64 x86-generic x86-xen_domu"
 WDR4900="mpc85xx-generic"
 
 TARGETS="ar71xx-generic ar71xx-nand $WDR4900 $RASPBPI $X86 $NOT_LEDE"
-if [ $BROKEN != "" ]; then
+if [ "$BROKEN" != "" ]; then
 	TARGETS+=" $BANANAPI $MICROTIK $WRT1200AC"
 fi
 
