@@ -6,22 +6,22 @@ Firmware Site Config for Freifunk Cuxhaven
 We are working with those autoupdater branches:
 
 ### stable
-Built on the site-ffki branch `master` on gluon 2016.2.1
+Built on the site-ffcux branch `master` on gluon 2016.2.1
 
 ### release-candidate (rc)
-Built on the site-ffki branch `master` too, but with BROKEN=1 on gluon 2016.2.1
+Built on the site-ffcux branch `master` too, but with BROKEN=1 on gluon 2016.2.1
 
 ### nightly (exp)
-Build on the site-ffki branch `experimental` with BROKEN=1 on gluon 2016.2.x (or later on gluon branch master)
+Build on the site-ffcux branch `experimental` with BROKEN=1 on gluon 2016.2.x (or later on gluon branch master)
 
 ### 802.11s (11s)
-Build on the site-ffki branch `802.11s` with BROKEN=1 and support for ralink Routers on gluon 2016.2.x
+Build on the site-ffcux branch `802.11s` with BROKEN=1 and support for ralink Routers on gluon 2016.2.x
 
 Gluon Dokumentation: https://gluon.readthedocs.io/en/latest/user/site.html
 
 #Releases
 
-Gluon versions used for specific Kieler Freifunk Firmware builds:
+Gluon versions used for specific Cuxhaven Freifunk Firmware builds:
 
 - 2016.2.1 - Gluon 2016.2.1
   - BugFixes
