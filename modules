@@ -7,13 +7,13 @@ GLUON_SITE_FEEDS='ffki ffhh roamguide eulenfunk'
 #	the  git repository from where to clone the package feed
 PACKAGES_FFKI_REPO=git://github.com/freifunk-kiel/ffki-packages.git
 PACKAGES_FFHH_REPO=git://github.com/freifunkhamburg/ffhh-packages.git
-PACKAGES_ROAMGUIDE_REPO=https://git.toppoint.de/sargon/roamguide
+PACKAGES_ROAMGUIDE_REPO=https://github.com/sargon/roamguide
 PACKAGES_EULENFUNK_REPO=https://github.com/Freifunk-Nord/eulenfunk-packages
 
 #	the version/commit of the git repository to clone
 PACKAGES_FFKI_COMMIT=5ba5aaf73aab4937978ad98150518e0d1f32d611
 PACKAGES_FFHH_COMMIT=c9d083f52384c2a52c303924de3960705c7c945b
-PACKAGES_ROAMGUIDE_COMMIT=cc8253d6dd62cd6ba4f04506711edd0705dc5532
+PACKAGES_ROAMGUIDE_COMMIT=491e2acb48e72ae4d0d22476efa51eb6c0c7970b
 PACKAGES_EULENFUNK_COMMIT=543d0abe1bdaff1f3de89248f63cc46c750d1fbc
 
 # the branch to check out
